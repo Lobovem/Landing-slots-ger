@@ -21,7 +21,6 @@
       max-width: 201px;
       margin-bottom: 60px;
     }
-
     @include md {
       max-width: 144px;
       margin-bottom: 30px;
@@ -48,12 +47,10 @@
     @include xl {
       margin-bottom: 10px;
     }
-
     @include lg {
       font-size: $font-size-16;
       line-height: 20px;
     }
-
     @include xs {
       margin-bottom: 10px;
 
@@ -84,7 +81,6 @@
     font-style: normal;
     line-height: 100%;
 
-
     @include xl {
       max-width: 700px;
       margin-bottom: 30px;
@@ -92,30 +88,28 @@
       font-size: $font-size-90;
       line-height: 120%;
     }
-
-    @media (max-width:1363px) {
-      font-size: 70px;
-    }
-
     @include lg {
       max-width: 370px;
       margin-bottom: 20px;
 
       font-size: $font-size-48;
     }
-
     @include md {
       margin-bottom: 30px;
     }
-
     @include sm {
-      font-size: $font-size-40;
       max-width: 320px;
+
+      font-size: $font-size-40;
+    }
+
+    @media (max-width:1363px) {
+      font-size: 70px;
     }
 
     @media (max-width: 585.2px) {
-      margin-bottom: 34px;
       max-width: 300px;
+      margin-bottom: 34px;
 
       text-align: center;
     }
@@ -126,7 +120,6 @@
         line-height: 120%;
       }
     }
-
   }
 
   &__link-box {
@@ -148,14 +141,12 @@
       width: 420px;
       min-height: 94px;
     }
-
     @include lg {
       width: 294px;
       min-height: 66px;
     }
 
     @media (max-width: 585.2px) {
-
       box-shadow: 0 10px 37px rgb(252 205 47 / 52%), inset 0 4px 17px rgb(255 255 255 / 45%);
     }
   }
@@ -184,13 +175,10 @@
     line-height: 56px;
 
     @include xl {
-
       font-size: $font-size-36;
       line-height: 44px;
     }
-
     @include lg {
-
       font-size: $font-size-24;
       line-height: 29px;
     }
